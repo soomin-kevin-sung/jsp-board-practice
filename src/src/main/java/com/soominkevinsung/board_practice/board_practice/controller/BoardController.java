@@ -1,4 +1,4 @@
-package com.soominkevinsung.board_practice.board_practice.Controller;
+package com.soominkevinsung.board_practice.board_practice.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
