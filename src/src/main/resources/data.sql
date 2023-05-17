@@ -1,12 +1,3 @@
-CREATE TABLE tbl_board(
-    boardId Long auto_increment,
-    title varchar (30) not null,
-    content varchar (30) not null,
-    name varchar (30) not null,
-    read varchar (30) not null default 0,
-    primary key(boardId)
-);
-
 INSERT INTO tbl_board( title, content, name) VALUES ('제목1', '내용1', '이름1');
 INSERT INTO tbl_board( title, content, name) VALUES ('제목2', '내용2', '이름2');
 INSERT INTO tbl_board( title, content, name) VALUES ('제목3', '내용3', '이름3');
