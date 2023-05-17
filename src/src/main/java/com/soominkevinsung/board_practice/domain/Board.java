@@ -1,4 +1,4 @@
-package com.soominkevinsung.board_practice.board_practice.domain;
+package com.soominkevinsung.board_practice.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
