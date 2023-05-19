@@ -3,10 +3,14 @@
 
 <mapper namespace="com.soominkevinsung.board_practice.mapper.BoardMapper">
     <select id="boardCount" resultType="int">
-        SELECT count(boardId) AS cnt FROM tbl_board
+        SELECT count(boardId) AS cnt FROM tbl_board;
     </select>
 
     <select id="getList" resultType="com.soominkevinsung.board_practice.domain.Board">
-        SELECT * FROM tbl_board
+        SELECT * FROM tbl_board;
+    </select>
+
+    <select id="getBoard" parameterType="Long" resultType="com.soominkevinsung.board_practice.domain.Board">
+        SELECT * FROM tbl_board where boardId=#{boardId};
     </select>
 </mapper>
