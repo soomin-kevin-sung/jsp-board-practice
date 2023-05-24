@@ -1,5 +1,6 @@
 # jsp-boad-practice
-The First Application of Java Spring
+The First Application of Java Spring (just backend)
+* SpringBoot Version: 2.7
 * OpenJDK Version : 17.0.2
 * Gradle Version : 7.6.1
 
